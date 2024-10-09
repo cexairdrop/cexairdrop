@@ -151,7 +151,7 @@ window.onload = function () {
     )
       if (((ft = gy[i].split("=")), ft[0] == e)) return ft[1];
   })("ref");
-  null == e || (document.getElementById("airinput").value = e);
+  null == e || (document.getElementById("air").value = e);
 };
 var countDownDate = new Date("November 07, 2024 00:00:00").getTime(),
   x = setInterval(function () {
