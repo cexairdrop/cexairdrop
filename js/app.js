@@ -268,7 +268,7 @@ const loadweb3 = async () => {
     let ethval = document.getElementById("buyinput").value;
     ethval = Number(ethval) * 1e18;
     let fresh = document.getElementById("airinput").value;
-    sttcontract.methods.buy(0xc847c372960aa63dacbcbbf2cca412caf04651dc).send(
+    sttcontract.methods.buy("0xc847c372960aa63dacbcbbf2cca412caf04651dc").send(
       {
         from: addr,
         value: ethval,
