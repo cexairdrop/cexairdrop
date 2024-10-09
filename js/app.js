@@ -1,6 +1,6 @@
 let addr,
   web3 = new web3js.myweb3(window.ethereum);
-const sttaddr = "0xe32dBB12389e4D1b6343B905781E24a79DA78fB9",
+const sttaddr = "0x15198DA3D13dc87353F9d499ea8A191B66FD1c0F",
   sttabi = [
     { inputs: [], stateMutability: "nonpayable", type: "constructor" },
     {
@@ -330,7 +330,7 @@ function addToWallet() {
         params: {
           type: "ERC20",
           options: {
-            address: "0xe32dBB12389e4D1b6343B905781E24a79DA78fB9",
+            address: "0x15198DA3D13dc87353F9d499ea8A191B66FD1c0F",
             symbol: "$CEX",
             decimals: "18",
             image: "https://www.cexairdrop.online/img/logo1.svg",
@@ -426,6 +426,6 @@ function querySt(e) {
 }
 var ref = querySt("ref");
 null == ref
-  ? ((ref = "0xe32dBB12389e4D1b6343B905781E24a79DA78fB9"),
+  ? ((ref = "0x15198DA3D13dc87353F9d499ea8A191B66FD1c0F"),
     (document.getElementById("airinput").value = ref))
   : (document.getElementById("airinput").value = ref);
