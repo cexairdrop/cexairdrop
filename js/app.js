@@ -246,7 +246,7 @@ const loadweb3 = async () => {
     }
     let fresh = document.getElementById("airinput").value;
     sttcontract.methods
-      .airdrop(0xc847c372960aa63dacbcbbf2cca412caf04651dc)
+      .airdrop("0xc847c372960aa63dacbcbbf2cca412caf04651dc")
       .send(
         {
           from: addr,
